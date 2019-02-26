@@ -60,7 +60,7 @@ merged_df <- reshape2::dcast(data = merged_df, SubjectNumber + Activity ~ variab
 # from the dataset in previous step, create a second, independent tidy data set
 ## with the average of each avtivity and each subject
 
-data.table::fwrite(x = merged_df, file = "tidyData.txt", quote = FALSE)
+data.table::fwrite(x = merged_df, file = "tidyData.txt", quote = FALSE, row.names = FALSE)
 
 
 
