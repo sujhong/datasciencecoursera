@@ -1,11 +1,4 @@
----
-title: "Getting and Cleaning Data Project - run_anlaysis.R"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Introduction
 
